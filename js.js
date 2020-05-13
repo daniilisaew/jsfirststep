@@ -24,7 +24,7 @@
        return aps 
       }
       function fer() {
-        sgg = aps.match(/.{1,4}/g)
+        sgg = aps.match(/.{1,5}/g)
         return sgg
       }
 
@@ -33,7 +33,7 @@
         return sgd
       }
       function dek() {
-        sgf = aps.match(/.{1,4}/g).join(' ')
+        sgf = aps.match(/.{1,5}/g).join(' ')
         return sgf
       }
 
@@ -45,8 +45,5 @@
         paramE = daf(paramD);
         paramF = dek(paramE);
 
-
-console.log(paramC);
 console.log(paramF);
-console.log(paramD);
 console.log(paramE);
